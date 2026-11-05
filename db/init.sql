@@ -1,3 +1,9 @@
+-- DROP DATABASE IF EXISTS school;
+
+-- CREATE DATABASE school;
+
+-- USE school;
+
 -- Runs automatically the first time the database starts.
 CREATE TABLE IF NOT EXISTS students (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -15,3 +21,4 @@ CREATE TABLE IF NOT EXISTS books (
 INSERT INTO books (title, author) VALUES
   ('Dune', 'Frank Herbert'),
   ('1984', 'George Orwell');
+
