@@ -22,7 +22,7 @@ Edit files in `website/` (start with `index.php`). Save, then refresh the websit
 ## Reset the database
 In the terminal (bottom panel):
 ```
-docker compose -f /workspace/docker-compose.yml down -v
+docker compose -f /workspace/.devcontainer/docker-compose.yml down -v
 ```
 Then press `F1` → **Codespaces: Rebuild Container**. Tables from `db/init.sql` are recreated.
 

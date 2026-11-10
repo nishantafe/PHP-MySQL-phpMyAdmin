@@ -1,8 +1,8 @@
--- DROP DATABASE IF EXISTS school;
+DROP DATABASE IF EXISTS school;
 
--- CREATE DATABASE school;
+CREATE DATABASE school;
 
--- USE school;
+USE school;
 
 -- Runs automatically the first time the database starts.
 CREATE TABLE IF NOT EXISTS students (
