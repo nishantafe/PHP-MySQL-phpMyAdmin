@@ -4,7 +4,7 @@ services:
     ports:
       - "8080:80"          # website -> http://localhost:8080
     volumes:
-      - .:/workspace:cached
+      - ..:/workspace:cached
     depends_on:
       - db
 

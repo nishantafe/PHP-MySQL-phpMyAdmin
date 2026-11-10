@@ -1,6 +1,6 @@
 {
   "name": "PHP + MySQL",
-  "dockerComposeFile": "../docker-compose.yml",
+  "dockerComposeFile": "./docker-compose.yml",
   "service": "php",
   "workspaceFolder": "/workspace",
   "features": {
