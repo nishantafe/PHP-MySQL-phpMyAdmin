@@ -1,17 +1,17 @@
 # PHP + MySQL + phpMyAdmin Starter (GitHub Codespaces)
 
-## Start (2 minutes, nothing to install)
+## Start (2 minutes, nothing to install) 
 1. Log in to [github.com](https://github.com) (free account).
 2. On this repo's page, click **Use this template** → **Create a new repository** (this is your own copy).
 3. In your new repo click **Code** → **Codespaces** → **Create codespace on main**. Wait a few minutes (first time only).
 4. Open the **Ports** tab (bottom panel) and click the 🌐 globe next to **Website (8080)**. Done!
 
 ## Where to work
-Edit files in `src/` (start with `index.php`). Save, then refresh the website tab.
+Edit files in `website/` (start with `index.php`). Save, then refresh the website tab.
 
 ## Examples
-- `src/index.php` - simple: read + add (students table)
-- `src/crud.php` - full Create / Read / Update / Delete (books table)
+- `website/index.php` - simple: read + add (students table)
+- `website/crud.php` - full Create / Read / Update / Delete (books table)
 
 ## Database
 - Open **phpMyAdmin**: Ports tab → globe next to **phpMyAdmin (8081)** → login `student` / `student`.
